@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="false"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/weatherInput"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="157dp"
+        android:ems="10"
+        android:hint="@string/weather_hint"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/Searchbutton"
+        android:layout_width="46dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="151dp"
+        android:layout_toEndOf="@+id/weatherInput"
+        android:layout_toRightOf="@+id/weatherInput"
+        android:background="@drawable/mybutton"
+        android:onClick="sendWeatherInfo"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/search" />
+
+    <ImageButton
+        android:id="@+id/Locationbutton"
+        android:layout_width="52dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/mybutton"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/location" />
+
+    <TextView
+        android:id="@+id/Footer"
+        android:layout_width="188dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="-20dp"
+        android:text="@string/student_info"
+        android:textColor="#FFFF" />
+
+</RelativeLayout>

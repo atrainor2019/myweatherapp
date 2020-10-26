@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myweatherapp</string>
+    <string name="prompt">Please Enter City, State, Zip Code, or GPS coordinates or Click on current Location</string>
+    <string name="Search">Hello</string>
+    <string name="weather_hint">Enter City/Zip/GPS</string>
+    <string name="student_info">Andrew Trainor-Z23542070</string>
+    <string name="new_search">Search Again</string>
+
+</resources>
